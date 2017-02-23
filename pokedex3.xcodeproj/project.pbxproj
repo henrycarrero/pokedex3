@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA8C1CD91E5E980E00950A9A /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = BA8C1CD81E5E980E00950A9A /* pokemon.csv */; };
 		BAF9D3B91E5E915F008E352E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF9D3B81E5E915F008E352E /* AppDelegate.swift */; };
 		BAF9D3BB1E5E915F008E352E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF9D3BA1E5E915F008E352E /* ViewController.swift */; };
 		BAF9D3BE1E5E915F008E352E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF9D3BC1E5E915F008E352E /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA8C1CD81E5E980E00950A9A /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		BAF9D3B51E5E915F008E352E /* pokedex3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF9D3B81E5E915F008E352E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF9D3BA1E5E915F008E352E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				BAF9D3BA1E5E915F008E352E /* ViewController.swift */,
 				BAF9D3BC1E5E915F008E352E /* Main.storyboard */,
 				BAF9D3BF1E5E915F008E352E /* Assets.xcassets */,
+				BA8C1CD81E5E980E00950A9A /* pokemon.csv */,
 				BAF9D3C11E5E915F008E352E /* LaunchScreen.storyboard */,
 				BAF9D3C41E5E915F008E352E /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			files = (
 				BAF9D3C31E5E915F008E352E /* LaunchScreen.storyboard in Resources */,
 				BAF9D3C01E5E915F008E352E /* Assets.xcassets in Resources */,
+				BA8C1CD91E5E980E00950A9A /* pokemon.csv in Resources */,
 				BAF9D3BE1E5E915F008E352E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				BAF9D3C91E5E915F008E352E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
